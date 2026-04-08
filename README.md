@@ -4,6 +4,8 @@
 
 Digital Certificate Validator 93 is a comprehensive cybersecurity tool designed to validate X.509 digital certificates. This end-to-end web application ensures certificate authenticity, integrity, validity, and basic trust through a user-friendly interface. Built with security-first principles, it prevents common attacks and provides detailed validation reports. Access is secured with user authentication.
 
+## 📸 Output Screenshots
+
 ## Problem Statement
 
 Digital certificates are fundamental to secure communications, but validating them manually is complex and error-prone. Users and organizations need a reliable way to:
