@@ -1,0 +1,161 @@
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.login-container, .validator-container {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.logout-btn {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.demo-note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.results-card {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.status-header {
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+.status-header h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.status-header p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+}
+
+.explanation {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.detail-item {
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.detail-item strong {
+  display: block;
+  color: #555;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.public-key {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
+
+.public-key pre {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+
+.warnings {
+  padding: 15px;
+  background-color: #fff3cd;
+  border-top: 1px solid #ffeaa7;
+}
+
+.warnings ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.download-btn {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #27ae60;
+}
+
+.download-btn:hover {
+  background-color: #229954;
+}
