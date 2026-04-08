@@ -1,4 +1,4 @@
-# Digital Certificate Validator 93
+# CertNova - Digital Certificate Validator
 
 ## Project Overview
 
